@@ -10,7 +10,7 @@ import isaaclab.envs.mdp as mdp
 from isaaclab.managers import ObservationGroupCfg as ObsGroup
 from isaaclab.managers import ObservationTermCfg as ObsTerm
 from isaaclab.managers import SceneEntityCfg
-from isaaclab.utils import configclass
+from isaaclab.utils.configclass import configclass
 
 from .cartpole_camera_env_cfg import CartpoleRGBCameraEnvCfg
 
